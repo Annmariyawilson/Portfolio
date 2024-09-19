@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+section {
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.intro {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.intro-content h1 {
+  font-size: 2.5rem;
+}
+
+.works {
+  background-color: #090c10;
+  padding: 20px;
+}
+
+.work-card {
+  width: 250px; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.work-card h3 {
+  margin-bottom: 10px;
+}
+
+.work-card p {
+  margin: 0;
+}
+.works h2{
+  color: rgb(255, 255, 255);
+}
+
+.contactus {
+  padding: 20px 0;
+}
+
+.contactus h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  max-width: 400px; 
+  margin: 0 auto; 
+  padding: 8px;
+  font-size: 14px;
+  background-color: #f0f0f0; 
+  border: 1px solid #ccc; 
+  color: #000; 
+}
+
+.form-input::placeholder {
+  color: #000; 
+}
+
+.contactus .btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 8px 20px;
+  font-size: 16px;
+}
+
+
+
+
+footer {
+  background-color: #000102;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+

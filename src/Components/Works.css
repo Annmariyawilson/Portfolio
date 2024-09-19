@@ -1,0 +1,54 @@
+.work-card {
+  transition: transform 0.2s ease;
+}
+
+.work-card:hover {
+  transform: scale(1.05);
+}
+
+.languages-used {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.language-box {
+
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.skills-section {
+  margin-top: 50px;
+}
+
+.skills-title {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.skill-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 20px 0; 
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.skill-icon svg {
+  color: #555;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.skill-icon:hover {
+  transform: scale(1.2); 
+}
+
+.skill-icon:hover svg {
+  color: #007bff; 
+}
